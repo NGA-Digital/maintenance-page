@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "NGA";
+  src: url("fonts/NGA-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "NGA";
+  src: url("fonts/NGA-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "NGA";
+  src: url("fonts/NGA-RegularItalic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: italic;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "NGA";
+  src: url("fonts/NGA-BoldItalic.woff2") format("woff2");
+  font-weight: bold;
+  font-style: italic;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "NGA Condensed";
+  src: url("fonts/NGACond-Bold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "NGA Condensed";
+  src: url("fonts/NGACond-BoldItalic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: italic;
+  font-display: fallback;
+}
+
+body {
+  margin: 2rem 5rem 0 5rem;
+  font-family: NGA, Arial, Helvetica, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  color: white;
+  background-color: black;
+}
+
+.wrapper {
+  max-width: 600px;
+  margin-top: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nga-logo {
+  display: block;
+  width: 75px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+	margin: 0 auto 3rem auto;
+	font-family: "NGA Condensed", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 4rem;
+	font-weight: 400;
+	line-height: 1;
+	width: fit-content;
+}
