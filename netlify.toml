@@ -1,0 +1,13 @@
+# netlify.toml
+
+# Allow stylesheets to load normally
+[[redirects]]
+from = "/styles/*"
+to = "/styles/:splat"
+status = 200
+
+# Redirect everything else to index.html
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
