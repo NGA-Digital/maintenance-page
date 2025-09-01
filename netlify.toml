@@ -1,0 +1,16 @@
+# netlify.toml
+
+# This redirects ALL paths to index.html (your maintenance page)
+[[redirects]]
+ from = "/*"
+ to = "/index.html"
+ status = 503
+ force = true
+
+# Custom headers for ALL responses
+[[headers]]
+ for = "/*"
+ [headers.values]
+   Retry-After = "3600"
+   X-Maintenance-Mode = "true"
+   Cache-Control = "no-cache"
